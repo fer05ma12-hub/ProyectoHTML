@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Luis</title>
+
+    <style>
+        body{
+            margin:0;
+            font-family: Arial, sans-serif;
+            background:#f4f4f4;
+        }
+
+        header{
+            background:#1e3a8a;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            background:#2563eb;
+            padding:10px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-weight:bold;
+        }
+
+        .contenedor{
+            width:80%;
+            margin:auto;
+            padding:20px;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+            margin-top:20px;
+            border-radius:10px;
+            box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+        }
+
+        button{
+            background:#2563eb;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#1e40af;
+        }
+
+        footer{
+            background:#111827;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mi tercera Página Web Luis</h1>
+        <p>Creada con HTML y CSS por Luis</p>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <div class="contenedor">
+
+        <div class="card">
+            <h2>Bienvenid@</h2>
+            <p>
+                Esta es una página web sencilla pero más avanzada
+                que un simple Hola Mundo Fernando David.
+            </p>
+
+            <button onclick="mostrarMensaje()">
+                Haz clic
+            </button>
+        </div>
+
+        <div class="card">
+            <h2>Sobre mí</h2>
+            <p>
+                Estoy aprendiendo GitHub, VS Code y desarrollo web.
+            </p>
+        </div>
+
+    </div>
+
+    <footer>
+        © 2026 Mi Página Web camibiada cambios en el main 
+    </footer>
+
+    <script>
+        function mostrarMensaje(){
+            alert("Hola, esta página funciona correctamente");
+        }
+    </script>
+
+</body>
+</html>
